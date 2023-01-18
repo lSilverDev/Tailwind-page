@@ -9,6 +9,10 @@
 </script>
 
 <style scoped>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 header {
   line-height: 1.5;
 }
