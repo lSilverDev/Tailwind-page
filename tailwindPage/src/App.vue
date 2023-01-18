@@ -1,13 +1,15 @@
 <template>
-  <div class="flex">
-    <div class="columns-1">
-      oi
+  <div class="justify-center flex bg-yellow-300 items-center h-screen">
+    <div class="text-4xl">
+      Hello 👋🏼
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-
+<script lang="ts">
+export default {
+  name: 'App',
+};
 </script>
 
 <style scoped>
