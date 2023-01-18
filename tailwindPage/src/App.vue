@@ -1,7 +1,33 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="columns-2 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"">
+    <div class="">
+      <aside style="background-color: red;">
+        <div class="row">
+          LogoUm            BotaopradiminuirSideBar
+        </div>
+        <div>
+          Perfil
+        </div>
+        <div>
+          <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <div class="">
+      <main>
+
+      </main>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -13,30 +39,5 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  line-height: 1.5;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
