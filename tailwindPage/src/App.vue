@@ -4,7 +4,7 @@
       <div class="flex flex-row">
         <div class="basis-1/2">
           <div>
-            <img class="rounded-full w-10 h-10" src="./assets/img/IMG_20220914_180902_852.jpg" alt=""/>
+            <img class="rounded-full w-10 h-10" src="./assets/img/Pikachu-SVG-File-Free.png" alt="logo"/>
           </div>
         </div>
         <div class="basis-1/2">
@@ -24,21 +24,77 @@
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="basis-1/4">Profile Foto</div>
-        <div class="basis-1/2">Nome do cabaço</div>
-        <div class="basis-1/4">seta</div>
+        <div class="basis-1/4">
+          <div>
+            <img class="rounded-full w-10 h-10" src="./assets/img/IMG_20220914_180902_852.jpg" alt="user photo"/>
+          </div>
+        </div>
+        <div class="basis-1/2">
+          <div>
+            <p>Edward S. S.</p>
+          </div>
+        </div>
+        <div class="basis-1/4">
+          <span class="material-symbols-outlined">
+            menu
+          </span>
+        </div>
       </div>
       <div class="flex flex-col">
-        <div>Home</div>
-        <div>Explore</div>
-        <div>NFT</div>
-        <div>Live</div>
-        <div>Notification</div>
-        <div>Messages</div>
-        <div>Bookmarks</div>
-        <div>Subscriptions</div>
-        <div>Help & Support</div>
-        <div>Creatone Academy</div>
+        <div>
+          <span class="material-symbols-outlined">
+            home
+          </span>
+          Home
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            explore
+          </span>
+          Explore
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            toll
+          </span>
+          NFT
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            live_tv
+          </span>
+          Live
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            chat
+          </span>
+          Messages
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            bookmark
+          </span>
+          Bookmarks
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            subscriptions
+          </span>
+          Subscriptions
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            contact_support
+          </span>
+          Help & Support
+        </div>
+        <div>
+          <span class="material-symbols-outlined">
+            school
+          </span>
+          Creatone Academy
+        </div>
       </div>
     </aside>
     <main>
