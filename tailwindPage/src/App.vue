@@ -1,11 +1,10 @@
 <template>
   <div class="flex h-screen">
-    <aside class="columns-1">
-      <div class="flex flex-row">
-        <div>
-          logo
+    <aside>
+        <div class="flex flex-row">
+          <div class="basis-1/2">logo</div>
+          <div class="basis-1/2">Sino</div>
         </div>
-      </div>
       <div class="row">
         <div class="flex flex-row">
           <div class="basis-1/4">Profile Foto</div>
@@ -13,51 +12,22 @@
           <div class="basis-1/4">seta</div>
         </div>
       </div>
-
-      <div>
-        <ul>
-          <li>ola</li>
-          <li>ola</li>
-        </ul>
-      </div>
-
-      <hr>
-
-      <div>
-        <ul>
-          <li>ola</li>
-          <li>ola</li>
-        </ul>
-      </div>
-
-      <hr>
-
-      <div>
-        <ul>
-          <li>ola</li>
-          <li>ola</li>
-        </ul>
-      </div>
-
-      <hr>
-
-      <div>
-        <ul>
-          <li>ola</li>
-          <li>ola</li>
-        </ul>
-      </div>
-
-      <div>
-        <ul>
-          <li>ola</li>
-          <li>ola</li>
-        </ul>
+      <div class="flex flex-col">
+        <div>Home</div>
+        <div>Explore</div>
+        <div>NFT</div>
+        <div>Live</div>
+        <div>Notification</div>
+        <div>Messages</div>
+        <div>Bookmarks</div>
+        <div>Subscriptions</div>
+        <div>Help & Support</div>
+        <div>Creatone Academy</div>
       </div>
     </aside>
-    <div class="columns-1">
-      diasdjasd
-    </div>
+    <main>
+      
+    </main>
   </div>
 </template>
 
