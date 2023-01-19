@@ -13,17 +13,24 @@ module.exports = {
     },
     extend: {
       colors: {
-        azul: {
-            claro: '#C5DFFF',
-            escuro: '#061E3C',
-            hover: '#1057B0'
+        blue: {
+          dark: '#150050',
+        },
+        black: {
+          dark: '#000000',
+        },
+        purple: {
+          dark: '#3F0071',
+        },
+        pink: {
+          light: '#FB2576',
         },
       },
       fontFamily: {
           inter: ['Inter', 'sans-serif']    
       },
       keyframes: {
-        sino_kf: {
+        ring_kf: {
             '0%, 100%': {
                 transform: 'rotate(-10deg)'
             },
@@ -33,7 +40,7 @@ module.exports = {
         }
       },
       animation: {
-          sino: 'sino_kf 0.31s ease-in-out infinite'
+        ring: 'ring_kf 0.31s ease-in-out infinite'
       }
     },
   },
