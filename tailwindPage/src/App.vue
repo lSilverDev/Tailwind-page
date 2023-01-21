@@ -13,9 +13,25 @@
         </div>
       </div>
       <div class="flex flex-row">
-        <div>
+        <div class="card">
           upload or create video
+          <p>isjdijasidijsijdiasidisaidisdiasidiajdasddasds</p>
+          <div>
+            footer
+          </div>
         </div>
+        <div>
+          4h
+        </div>
+        <div>
+          1,2m
+        </div>
+        <div>
+          9848
+        </div>
+      </div>
+      <div class="flex flex-row">
+
       </div>
     </main>
   </div>
