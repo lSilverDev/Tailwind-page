@@ -2,7 +2,7 @@
     <div class="flex flex-row justify-between">
         <div>
             <div>
-            <PuzzlePieceIcon class="w-10 h-10 stroke-pink-light"/>
+                <PuzzlePieceIcon class="w-10 h-10 stroke-pink-light"/>
             </div>
         </div>
         <div>

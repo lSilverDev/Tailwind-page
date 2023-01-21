@@ -1,20 +1,14 @@
 <template>
-    <div class="flex flex-row py-8">
-        <div class="basis-1/4">
+    <div class="flex flex-row py-8 justify-between items-center">
+        <div class="flex items-center">
             <div>
-            <img class="rounded-full w-10 h-10" src="../../assets/img/IMG_20220914_180902_852.jpg" alt="user photo"/>
+                <img class="rounded-full w-12 h-12" src="../../assets/img/IMG_20220914_180902_852.jpg" alt="user photo"/>
+                <p class="px-2">Edward S. S.</p>
             </div>
         </div>
-        <div class="basis-1/2">
-            <div>
-            <p>Edward S. S.</p>
-            </div>
-        </div>
-        <div class="basis-1/4">
-            <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined">
             menu
-            </span>
-        </div>
+        </span>
     </div>
 </template>
 
