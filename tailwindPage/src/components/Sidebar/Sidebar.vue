@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-80 p-8" style="background-color: blueviolet;">
+    <aside class="w-80 p-8">
       <SidebarHeader/>
       <SidebarProfile/>
       <SidebarNav/>

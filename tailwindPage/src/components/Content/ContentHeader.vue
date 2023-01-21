@@ -1,13 +1,9 @@
 <template>
-    <div class="flex w-4/5 flex-row p-8">
-        <div class="basis-1/4">
-            <span class="material-symbols-outlined">
-            menu
-            </span>
+    <div class="flex w-full flex-row p-8">
+        <div class="bg-white w-full h-8">
+            
         </div>
-        <div class="basis-1/2">
-            <img class="rounded-3xl" src="https://pbs.twimg.com/media/EbQ1oAHXsAIoHUy?format=jpg&name=small" alt="">
-        </div>
+        <!-- <img class="rounded-3xl h-1/4" src="https://pbs.twimg.com/media/EbQ1oAHXsAIoHUy?format=jpg&name=small" alt=""> -->
     </div>
 </template>
 
