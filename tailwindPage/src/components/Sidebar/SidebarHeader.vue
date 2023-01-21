@@ -1,12 +1,11 @@
 <template>
-    <div class="flex flex-row">
-        <div class="basis-1/2">
+    <div class="flex flex-row justify-between">
+        <div>
             <div>
             <PuzzlePieceIcon class="w-10 h-10 stroke-pink-light"/>
-            <!-- <img class="rounded-full w-10 h-10" src="../../assets/img/Pikachu-SVG-File-Free.png" alt="logo"/> -->
             </div>
         </div>
-        <div class="basis-1/2">
+        <div>
             <div class="self-center relative group">
                 <svg class="fill-pink-light absolute top-0 left-1 opacity-0 group-hover:opacity-100 group-hover:animate-ping"
                     width="35" height="20" viewBox="0 0 44 20" fill="none" xmlns="http://www.w3.org/2000/svg">
