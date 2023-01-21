@@ -19,21 +19,21 @@
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-10 h-10 stroke-pink-light"/>
+          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
           <div>
             <p>Watch Time</p>
             <div>4 hr</div>
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-10 h-10 stroke-pink-light"/>
+          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
           <div>
             <p>Views</p>
             <div>1,2 m</div>
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-10 h-10 stroke-pink-light"/>
+          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
           <div>
             <p>Subscribers</p>
             <div>9848</div>
