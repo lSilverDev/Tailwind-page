@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen bg-black-dark">
-  <Sidebar/>
-  <Content/>
+    <Sidebar/>
+    <Content/>
   </div>
 </template>
 
