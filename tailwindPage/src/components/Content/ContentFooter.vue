@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-row">
-            <VideoCameraIcon class="w-6 h-6 stroke-pink-light"/>
-            <p class="px-2">Most Popular Video</p>
-        </div>
-    <div class="flex flex-row p-8 rounded-lg p-8 border-2 border-white border-solid">
-        <div class="flex flex-row">
+    <div class="flex flex-row p-2">
+        <VideoCameraIcon class="w-6 h-6 stroke-pink-light"/>
+        <p class="px-2">Most Popular Video</p>
+    </div>
+    <div class="flex flex-row p-8 ml-8 mr-8 rounded-lg p-8 border-2 border-white border-solid">
+        <div class="flex flex-row items-center">
             <div class="flex flex-col">
                 <img class="rounded-3xl" src="https://pbs.twimg.com/media/EbQ1oAHXsAIoHUy?format=jpg&name=small" alt=""/>
             </div>
@@ -20,14 +20,14 @@
             </div>
             <div class="flex flex-col">
                 <div class="flex flex-row">
-                    <p>reacao</p>
-                    <p>reacao</p>
-                    <p>reacao</p>
+                    <FaceSmileIcon class="w-6 h-6 stroke-pink-light"/>
+                    <FaceFrownIcon class="w-6 h-6 stroke-pink-light"/>
+                    <p class="px-2">24</p>
                 </div>
             </div>
             <div class="flex flex-col">
                 <div class="flex flex-row">
-                    <p>... Icon</p>
+                    <p class="px-2">...</p>
                 </div>
             </div>
         </div>
@@ -40,6 +40,8 @@ import { VideoCameraIcon } from '@heroicons/vue/24/outline';
 import { HeartIcon } from '@heroicons/vue/24/outline';
 import { BookmarkIcon } from '@heroicons/vue/24/outline';
 import { ChatBubbleLeftEllipsisIcon } from '@heroicons/vue/24/outline';
+import { FaceSmileIcon } from '@heroicons/vue/24/outline';
+import { FaceFrownIcon } from '@heroicons/vue/24/outline';
 
 export default defineComponent({
     name: 'ContentFooter',
@@ -47,6 +49,8 @@ export default defineComponent({
     VideoCameraIcon,
     BookmarkIcon,
     ChatBubbleLeftEllipsisIcon,
+    FaceSmileIcon,
+    FaceFrownIcon,
     HeartIcon
     }
 });

@@ -1,5 +1,5 @@
 <template>
-    <aside class="w-80 p-8">
+    <aside class="w-80 p-8 border-r border-solid">
       <SidebarHeader/>
       <SidebarProfile/>
       <SidebarNav/>

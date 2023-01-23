@@ -30,7 +30,6 @@
                 <p>Comment</p>
               </div>
             </div>
-            
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
@@ -42,7 +41,7 @@
             </div>
           </div>
           <div class="flex flex-col">
-            <p>Selo</p>
+            <HandThumbUpIcon class="w-6 h-6 stroke-pink-light"/>
           </div>
         </div>
       </div>
@@ -52,11 +51,13 @@
 import { defineComponent } from "vue";
 import { FireIcon } from '@heroicons/vue/24/outline';
 import { ChatBubbleLeftEllipsisIcon } from '@heroicons/vue/24/outline';
+import { HandThumbUpIcon } from '@heroicons/vue/24/solid';
 
 export default defineComponent({
     name: 'ContentAccount',
     components: {
       FireIcon,
+      HandThumbUpIcon,
       ChatBubbleLeftEllipsisIcon
     }
 });
