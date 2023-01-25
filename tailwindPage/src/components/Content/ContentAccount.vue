@@ -1,12 +1,12 @@
 <template>
       <div class="flex flex-row p-8">
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <div class="flex flex-row">
+          <div class="flex flex-row pb-6">
             <FireIcon class="w-6 h-6 stroke-pink-light"/>
             <p class="px-2 font-bold text-white">New Subscribers</p>
           </div>
-          <div>
-            <p>Fotos</p>
+          <div class="flex items-center pb-4">
+            <img class="rounded-full w-8 h-8" src="../../assets/img/IMG_20220914_180902_852.jpg" alt="user photo"/>
           </div>
           <div class="flex flex-row">
             <p class="font-bold text-xl text-white">20</p>
@@ -14,17 +14,19 @@
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <div class="flex flex-row">
+          <div class="flex flex-row pb-6">
             <ChatBubbleLeftEllipsisIcon class="w-6 h-6 stroke-pink-light"/>
             <p class="px-2 font-bold text-white">New comments</p>
           </div>
           <div class="flex flex-row">
             <div class="flex flex-col">
-              <div>img</div>
+              <div class="flex items-center">
+                <img class="rounded-full w-8 h-8" src="../../assets/img/IMG_20220914_180902_852.jpg" alt="user photo"/>
+              </div>
             </div>
             <div class="flex flex-col px-2">
               <div class="flex flex-row">
-                <p>Name</p>
+                <p>Edward</p>
               </div>
               <div class="flex flex-row">
                 <p class="font-bold text-sm text-white">Comment</p>

@@ -6,15 +6,15 @@
           <div class="flex flex-row justify-between">
             <div class="flex flex-row items-center">
               <PhotoIcon  class="w-6 h-6"/>
-              <p class="px-2">Add Photo</p>
+              <p class="px-2 text-white">Add Photo</p>
             </div>
             <div class="flex flex-row items-center">
               <VideoCameraIcon class="w-6 h-6"/>
-              <p class="px-2">Add Video</p>
+              <p class="px-2 text-white">Add Video</p>
             </div>
             <div class="flex flex-row items-center">
               <TvIcon class="w-6 h-6"/>
-              <p class="px-2">Start Live</p>
+              <p class="px-2 text-white">Start Live</p>
             </div>
           </div>
         </div>
