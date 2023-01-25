@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-row p-2">
         <VideoCameraIcon class="w-6 h-6 stroke-pink-light"/>
-        <p class="px-2">Most Popular Video</p>
+        <p class="px-2 font-bold text-white">Most Popular Video</p>
     </div>
     <div class="flex flex-row p-8 ml-8 mr-8 rounded-lg p-8 border-2 border-white border-solid">
         <div class="flex flex-row items-center">
@@ -9,7 +9,7 @@
                 <img class="rounded-3xl" src="https://pbs.twimg.com/media/EbQ1oAHXsAIoHUy?format=jpg&name=small" alt=""/>
             </div>
             <div class="flex flex-col">
-                <p>Clash of clans village</p>
+                <p class="font-bold text-white">Clash of clans village</p>
             </div>
             <div class="flex flex-col">
                 <div class="flex flex-row">
@@ -27,7 +27,7 @@
             </div>
             <div class="flex flex-col">
                 <div class="flex flex-row">
-                    <p class="px-2">...</p>
+                    <p class="px-2 font-bold text-white">...</p>
                 </div>
             </div>
         </div>

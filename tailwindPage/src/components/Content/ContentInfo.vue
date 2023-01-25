@@ -1,8 +1,8 @@
 <template>
-      <div class="flex flex-row p-8">
-        <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <p>Upload or create video</p>
-          <p>To increase activity in your channel, dont forget to upload new videos</p>
+      <div class="flex flex-row p-8 justify-evenly">
+        <div class="rounded-lg p-8 border-2 border-white border-solid basis-1/2">
+          <p class="pb-2 font-serif font-bold text-xl text-white">Upload or create video</p>
+          <p class="pb-4">To increase activity in your channel, dont forget to upload new videos</p>
           <div class="flex flex-row justify-between">
             <div class="flex flex-row items-center">
               <PhotoIcon  class="w-6 h-6"/>
@@ -18,25 +18,31 @@
             </div>
           </div>
         </div>
-        <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+        <div class="rounded-lg p-8 border-2 border-white border-solid flex flex-col">
+          <div class="pb-8">
+            <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+          </div>
           <div>
             <p>Watch Time</p>
-            <div>4 hr</div>
+            <div class="font-bold text-xl text-white">4 hr</div>
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+          <div class="pb-8">
+            <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+          </div>
           <div>
             <p>Views</p>
-            <div>1,2 m</div>
+            <div class="font-bold text-xl text-white">1,2 m</div>
           </div>
         </div>
         <div class="rounded-lg p-8 border-2 border-white border-solid">
-          <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+          <div class="pb-8">
+            <ClockIcon class="w-6 h-6 stroke-pink-light"/>
+          </div>
           <div>
             <p>Subscribers</p>
-            <div>9848</div>
+            <div class="font-bold text-xl text-white">9848</div>
           </div>
         </div>
       </div>
