@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen bg-black-dark">
+  <div class="hidden md:flex h-scree">
     <Sidebar/>
     <Content/>
   </div>
